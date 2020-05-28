@@ -1,0 +1,23 @@
+{
+	"name": "toefl-sampler",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.9.11",
+		"@types/react-dom": "^16.9.3",
+		"parcel-bundler": "^1.12.4",
+		"typescript": "^3.6.4"
+	},
+	"scripts": {
+		"dev": "./node_modules/.bin/parcel src/index.html -t electron --public-url './'"
+	},
+	"dependencies": {
+		"@emotion/core": "^10.0.28",
+		"electron": "^7.0.1",
+		"electron-is-dev": "^1.1.0",
+		"electron-store": "^5.1.0",
+		"react": "^16.11.0",
+		"react-dom": "^16.11.0"
+	}
+}
